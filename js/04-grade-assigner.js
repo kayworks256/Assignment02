@@ -1,4 +1,5 @@
 let num = Number(prompt('Enter the number between 1 and 100'))
+num = Number(num.toFixed(0))
 if (num >= 90 && num <= 100) {
     document.write('You received an A')
 }
